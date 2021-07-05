@@ -14,7 +14,7 @@
         <% if(fistName == null || fistName.equals("")){ %>
         <form action="/submit" method="POST">
             <p>Имя: <input required type="text" name="firstName"></p>
-            <p>Прозвище: <input required type="text" name="lastName"></p>
+            <p>Фамилия: <input required type="text" name="lastName"></p>
             <p>Возраст: <input required type="number" name="age"></p>
             <p><b>JavaScript - это скрипт на Java?</b></p>
             <p><input required name="question1" type="radio" value="yes" checked>Да</p>

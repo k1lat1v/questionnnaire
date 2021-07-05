@@ -44,7 +44,7 @@ public class StatisticServlet extends HttpServlet {
 
         String table = createTable(counter);
 
-        String retry = "<br> <a href=\"form.jsp?action=retry\">Пройти анкету еще раз</a>";
+        String retry = "<br> <a href=\"/submit?action=retry\">Пройти анкету еще раз</a>";
 
         resp.getWriter().println(String.format(TEMPLATE, (table + retry)));
     }
